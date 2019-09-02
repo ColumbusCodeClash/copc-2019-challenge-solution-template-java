@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>dev.copc.solution</groupId>
+  <artifactId>copc-solution</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0.0</version>
+  <name>copc-solution</name>
+  <url>http://maven.apache.org</url> 
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <exec.mainClass>dev.copc.solution.App</exec.mainClass>
+  </properties>
+  <dependencies>
+    <dependency>
+        <groupId>dev.copc.common</groupId>
+        <artifactId>copc-common-lib</artifactId>
+        <version>1.0.0</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/copc-common-lib-1.0.0.jar</systemPath>
+    </dependency>
+  </dependencies>
+</project>
