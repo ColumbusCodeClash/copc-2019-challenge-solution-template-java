@@ -1,0 +1,7 @@
+stages:
+  - test
+
+tests:
+  stage: test
+  script:
+    - curl -X POST -F token=b75f0b80777efd43f1c67fd37f41a1 -F "ref=master" -F "variables[TEAMNAME]=challenge-solution-java" https://gitlab.com/api/v4/projects/14081772/trigger/pipeline
