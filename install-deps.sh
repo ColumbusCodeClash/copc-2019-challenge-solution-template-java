@@ -1,1 +1,1 @@
-mvn install:install-file -Dfile=lib/copc-common-lib-1.0.0.jar -DgroupId=dev.copc.common -DartifactId=copc-common-lib -Dversion=1.0.0 -Dpackaging=jar
+mvn install:install-file -Dfile=lib/copc-common-lib-1.0.1.jar -DgroupId=dev.copc.common -DartifactId=copc-common-lib -Dversion=1.0.1 -Dpackaging=jar
