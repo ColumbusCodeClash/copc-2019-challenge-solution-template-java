@@ -6,7 +6,7 @@ import dev.copc.common.*;
 public class ChallengeSolution implements IChallengeSolution {
 
     @Override
-    public String[] getChallengeSolutions(String arg0) {
+    public String[] getChallengeSolutions(String problem) {
         // TODO: Implement this method
         return null;
     }
