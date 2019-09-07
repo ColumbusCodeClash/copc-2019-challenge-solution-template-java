@@ -6,16 +6,16 @@ public class SolutionConfiguration implements ISolutionConfiguration {
 
     @Override
     public String getTeamName() {
-        return "Team Name";        // TODO: Return your team's "friendly" name here. This will show on the leaderboard.
+        return "Team Name";
     }
 
     @Override
     public Challenge getChallenge() {
-        return Challenge.AlphaMath; // TODO: Return the Challenge that this solution is for.
+        return Challenge.AlphaMath;
     }
 
     @Override
     public ChallengeLevel getChallengeLevel() {
-        return ChallengeLevel.NonBeginner;  // TODO: Return the level at which you're competing.
+        return ChallengeLevel.NonBeginner;
     }
 }
